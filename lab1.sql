@@ -67,8 +67,5 @@ DELETE FROM Student;
 
 
 
-Create image
 
-Voice
-No file chosenNo file chosen
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
+
