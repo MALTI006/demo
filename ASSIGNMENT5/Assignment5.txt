@@ -1,0 +1,3438 @@
+PART A:
+SQL> SELECT S.Student_ID,S.Name,e.Course_ID
+  2  FROM Student s
+  3  INNER JOIN Enrollment E
+  4  ON S.Student_ID = E.Student_ID;
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+2.3105E+10
+SRISHTI KUMARI
+    105501
+
+2.3105E+10
+MALTI  KUMARI
+    105501
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+
+2.3105E+10
+BABLI  KUMARI
+    105501
+
+2.3105E+10
+ASHA  KUMARI
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+    105501
+
+2.3105E+10
+SMITA  KUMARI
+    105501
+
+2.3105E+10
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+CHANDNI  KUMARI
+    100301
+
+2.3105E+10
+AMIT KUMAR
+    100302
+
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+2.3105E+10
+ROHAN KUMAR
+    100303
+
+2.3105E+10
+ANKIT KUMAR
+    100304
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+
+2.3105E+10
+DEEP KUMAR
+    100305
+
+2.3105E+10
+SANDEEP KUMAR
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+    107501
+
+2.3105E+10
+MANISH KUMAR
+    107501
+
+2.3105E+10
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+SUBRAJ KUMAR
+    107501
+
+2.3105E+10
+SUDIP KUMAR
+    107503
+
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+2.3105E+10
+SANDHYA KUMARI
+    110201
+
+2.3105E+10
+KHUSBOO KUMARI
+    110202
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+
+2.3105E+10
+PRIYANSHU KUMARI
+    110203
+
+2.3105E+10
+DOLLY KUMARI
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+    110204
+
+2.3105E+10
+SONAM KUMARI
+    110205
+
+2.3105E+10
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+ADITI KUMARI
+    108701
+
+2.3105E+10
+EISTA KUMARI
+    108701
+
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+2.3105E+10
+GANGA KUMARI
+    108702
+
+2.3105E+10
+GANGESH KUMAR
+    108703
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+
+2.3105E+10
+ATUL KUMAR
+    108704
+
+2.3105E+10
+NEELAM KUMARI
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+    107201
+
+2.3105E+10
+KAMINI KUMARI
+    107202
+
+2.3105E+10
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+LALITA KUMARI
+    107203
+
+2.3105E+10
+MADHURI KUMARI
+    107204
+
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+2.3105E+10
+JANVI KUMARI
+    107205
+
+2.3105E+10
+MAHESH KUMAR
+    109101
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+
+2.3105E+10
+GOVIND KUMAR
+    109102
+
+2.3105E+10
+HIMANSHU KUMAR
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+    109103
+
+2.3105E+10
+ANSHU KUMAR
+    109104
+
+2.3105E+10
+
+STUDENT_ID
+----------
+NAME
+--------------------------------------------------------------------------------
+ COURSE_ID
+----------
+NIKESH KUMAR
+    109105
+
+SQL> SELECT S.NAME,E.Semester
+  2  FROM Student S
+  3  INNER JOIN Enrollment E
+  4  ON S.Student_ID = E.Student_ID;
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+SRISHTI KUMARI
+5
+
+MALTI  KUMARI
+5
+
+BABLI  KUMARI
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+ASHA  KUMARI
+5
+
+SMITA  KUMARI
+5
+
+CHANDNI  KUMARI
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+AMIT KUMAR
+5
+
+ROHAN KUMAR
+5
+
+ANKIT KUMAR
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+DEEP KUMAR
+5
+
+SANDEEP KUMAR
+5
+
+MANISH KUMAR
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+SUBRAJ KUMAR
+5
+
+SUDIP KUMAR
+5
+
+SANDHYA KUMARI
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+KHUSBOO KUMARI
+5
+
+PRIYANSHU KUMARI
+5
+
+DOLLY KUMARI
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+SONAM KUMARI
+5
+
+ADITI KUMARI
+5
+
+EISTA KUMARI
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+GANGA KUMARI
+5
+
+GANGESH KUMAR
+5
+
+ATUL KUMAR
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+NEELAM KUMARI
+5
+
+KAMINI KUMARI
+5
+
+LALITA KUMARI
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+MADHURI KUMARI
+5
+
+JANVI KUMARI
+5
+
+MAHESH KUMAR
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+GOVIND KUMAR
+5
+
+HIMANSHU KUMAR
+5
+
+ANSHU KUMAR
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+NIKESH KUMAR
+5
+
+SQL> SELECT S.Name,E.Grade
+  2  FROM Student S
+  3  INNER JOIN Enrollment E
+  4  ON S.Student_ID = E.Student_ID;
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+SRISHTI KUMARI
+A
+
+MALTI  KUMARI
+A
+
+BABLI  KUMARI
+A+
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+ASHA  KUMARI
+B+
+
+SMITA  KUMARI
+B
+
+CHANDNI  KUMARI
+A
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+AMIT KUMAR
+A+
+
+ROHAN KUMAR
+B
+
+ANKIT KUMAR
+B+
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+DEEP KUMAR
+C
+
+SANDEEP KUMAR
+A
+
+MANISH KUMAR
+A+
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+SUBRAJ KUMAR
+B
+
+SUDIP KUMAR
+C
+
+SANDHYA KUMARI
+A+
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+KHUSBOO KUMARI
+A
+
+PRIYANSHU KUMARI
+B
+
+DOLLY KUMARI
+B+
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+SONAM KUMARI
+A
+
+ADITI KUMARI
+A
+
+EISTA KUMARI
+A+
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+GANGA KUMARI
+B
+
+GANGESH KUMAR
+C
+
+ATUL KUMAR
+A
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+NEELAM KUMARI
+A
+
+KAMINI KUMARI
+A+
+
+LALITA KUMARI
+B
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+MADHURI KUMARI
+A
+
+JANVI KUMARI
+B+
+
+MAHESH KUMAR
+A
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+GOVIND KUMAR
+A+
+
+HIMANSHU KUMAR
+B
+
+ANSHU KUMAR
+A
+
+
+NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+NIKESH KUMAR
+A
+
+PART B:
+SQL> SELECT C.Course_Name,C.Credits,F.Name
+  2  FROM Course C
+  3  INNER JOIN Faculty F
+  4  ON C.Faculty_ID = F.Faculty_ID;
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+ARTIFICIAL INTELLIGENCE
+         4
+E.HAQUE
+
+MECHANICS OF MATERIALS
+         3
+KUNAL KUMAR
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+
+HYDRAULIC ENGINEERING
+         3
+VICKY ANAND
+
+TRANSPORTATION ENGINEERING
+         3
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+MAUSAM BHARTI
+
+GEOTECHNICAL ENGINEERING
+         3
+RAUSHAN ANAND
+
+ENVIRONMENTAL SCIENCE
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+         3
+NITISH KUMAR
+
+ANALOG AND DIGITAL COMMUNICATION
+         4
+HARE KRISHNA MISHRA
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+POWER SYSTEM -I
+         4
+ASHISH KUMAR SUMAN
+
+HEAT TRANSFER
+         4
+AJAY GIRI
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+
+FLUID MACHINERY
+         4
+UTTAM KUMAR
+
+MANUFACTURING PROCESS
+         4
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+BABLU DAS
+
+KINEMATICS OF MACHINE
+         4
+FIROZ AKHTAR
+
+CONSTITUTIONAL OF INDIA
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+         4
+BHAVESH NANDAN
+
+CAPSTONE DESIGN PROJECT
+         4
+ABHIMANYU MANDAL
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+CONTROL SYSTEMS
+         4
+MITESH KUMAR
+
+POWER ELECTRONICS
+         4
+AKHILESH KUMAR
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+
+MECHANICAL ENGINEERING
+         4
+RUPESH KUMAR
+
+ENGINEERING GEOLOGY
+         4
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+N. KUMAR
+
+STRUCTURAL ANALYSIS
+         4
+PANKAJ KUMAR
+
+MANAGEMENT
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+         4
+NISHIKANT KUMAR
+
+MICROPROCESSOR
+         4
+MD.HAFEEZULLAH
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+DESIGN ANALYSIS OF ALGORITHM
+         4
+MANISHA KUMARI SINGH
+
+COMPILER DESIGN
+         4
+SHAKILA KUMARI
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+
+OPERATING SYSTEM
+         4
+ARUN KUMAR
+
+SOFTWARE TRAINING
+         4
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+PRAVEEN KUMAR
+
+ANALOG ELECTRONICS CIRCUIT
+         4
+ABHISHEK  KUMAR
+
+DATA STRUCTURAL AND ALGORITHM
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+         4
+SANJAY  KUMAR
+
+OBJECT ORIENTED PROGRAMMING
+         4
+PINTU  KUMAR
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+   CREDITS
+----------
+NAME
+--------------------------------------------------------------------------------
+TECHNICAL WRITING
+         4
+SINTU JHA
+
+MATHEMATICS
+         4
+ANISHA SINGH
+
+SQL> SELECT C.Course_Name
+  2  FROM Course C
+  3  INNER JOIN Faculty F
+  4  ON C.Faculty_ID=F.Faculty_ID
+  5  WHERE F.Faculty_ID='119';
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+CAPSTONE DESIGN PROJECT
+SQL> SELECT F.Name,F.Designation,C.Course_Name
+  2  FROM Faculty F
+  3  INNER JOIN Course C
+  4  ON F.Faculty_ID=C.Faculty_ID;
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+E.HAQUE
+ASSOCIATE PROFESSOR
+ARTIFICIAL INTELLIGENCE
+
+KUNAL KUMAR
+ASSOCIATE PROFESSOR
+MECHANICS OF MATERIALS
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+VICKY ANAND
+ASSOCIATE PROFESSOR
+HYDRAULIC ENGINEERING
+
+MAUSAM BHARTI
+ PROFESSOR
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+TRANSPORTATION ENGINEERING
+
+RAUSHAN ANAND
+ ASSOCIATE PROFESSOR
+GEOTECHNICAL ENGINEERING
+
+NITISH KUMAR
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ ASSOCIATE PROFESSOR
+ENVIRONMENTAL SCIENCE
+
+HARE KRISHNA MISHRA
+ ASSOCIATE PROFESSOR
+ANALOG AND DIGITAL COMMUNICATION
+
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ASHISH KUMAR SUMAN
+ ASSOCIATE PROFESSOR
+POWER SYSTEM -I
+
+AJAY GIRI
+ ASSOCIATE PROFESSOR
+HEAT TRANSFER
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+UTTAM KUMAR
+ ASSOCIATE PROFESSOR
+FLUID MACHINERY
+
+BABLU DAS
+ ASSOCIATE PROFESSOR
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+MANUFACTURING PROCESS
+
+FIROZ AKHTAR
+ ASSOCIATE PROFESSOR
+KINEMATICS OF MACHINE
+
+BHAVESH NANDAN
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ ASSOCIATE PROFESSOR
+CONSTITUTIONAL OF INDIA
+
+ABHIMANYU MANDAL
+ ASSOCIATE PROFESSOR
+CAPSTONE DESIGN PROJECT
+
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+MITESH KUMAR
+ ASSOCIATE PROFESSOR
+CONTROL SYSTEMS
+
+AKHILESH KUMAR
+ ASSOCIATE PROFESSOR
+POWER ELECTRONICS
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+RUPESH KUMAR
+ ASSOCIATE PROFESSOR
+MECHANICAL ENGINEERING
+
+N. KUMAR
+ ASSOCIATE PROFESSOR
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ENGINEERING GEOLOGY
+
+PANKAJ KUMAR
+ ASSOCIATE PROFESSOR
+STRUCTURAL ANALYSIS
+
+NISHIKANT KUMAR
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ ASSOCIATE PROFESSOR
+MANAGEMENT
+
+MD.HAFEEZULLAH
+ ASSOCIATE PROFESSOR
+MICROPROCESSOR
+
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+MANISHA KUMARI SINGH
+ ASSOCIATE PROFESSOR
+DESIGN ANALYSIS OF ALGORITHM
+
+SHAKILA KUMARI
+ ASSOCIATE PROFESSOR
+COMPILER DESIGN
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+ARUN KUMAR
+ ASSOCIATE PROFESSOR
+OPERATING SYSTEM
+
+PRAVEEN KUMAR
+ ASSOCIATE PROFESSOR
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SOFTWARE TRAINING
+
+ABHISHEK  KUMAR
+ ASSOCIATE PROFESSOR
+ANALOG ELECTRONICS CIRCUIT
+
+SANJAY  KUMAR
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ ASSOCIATE PROFESSOR
+DATA STRUCTURAL AND ALGORITHM
+
+PINTU  KUMAR
+ ASSOCIATE PROFESSOR
+OBJECT ORIENTED PROGRAMMING
+
+
+NAME
+--------------------------------------------------------------------------------
+DESIGNATION
+--------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SINTU JHA
+ ASSOCIATE PROFESSOR
+TECHNICAL WRITING
+
+ANISHA SINGH
+ ASSOCIATE PROFESSOR
+MATHEMATICS
+
+PART C:
+
+SQL> SELECT S.Name,C.Course_Name
+  2  FROM Student S
+  3  INNER JOIN Enrollment E
+  4  ON S.Student_ID=E.Student_ID
+  5  INNER JOIN Course C
+  6  ON E.Course_ID=C.Course_ID;
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SRISHTI KUMARI
+ARTIFICIAL INTELLIGENCE
+
+MALTI  KUMARI
+ARTIFICIAL INTELLIGENCE
+
+BABLI  KUMARI
+ARTIFICIAL INTELLIGENCE
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ASHA  KUMARI
+ARTIFICIAL INTELLIGENCE
+
+SMITA  KUMARI
+ARTIFICIAL INTELLIGENCE
+
+CHANDNI  KUMARI
+MECHANICS OF MATERIALS
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+AMIT KUMAR
+HYDRAULIC ENGINEERING
+
+ROHAN KUMAR
+TRANSPORTATION ENGINEERING
+
+ANKIT KUMAR
+GEOTECHNICAL ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+DEEP KUMAR
+ENVIRONMENTAL SCIENCE
+
+SANDEEP KUMAR
+HEAT TRANSFER
+
+MANISH KUMAR
+HEAT TRANSFER
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SUBRAJ KUMAR
+HEAT TRANSFER
+
+SUDIP KUMAR
+MANUFACTURING PROCESS
+
+SANDHYA KUMARI
+CAPSTONE DESIGN PROJECT
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+KHUSBOO KUMARI
+CONTROL SYSTEMS
+
+PRIYANSHU KUMARI
+POWER ELECTRONICS
+
+DOLLY KUMARI
+ANALOG AND DIGITAL COMMUNICATION
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SONAM KUMARI
+POWER SYSTEM -I
+
+ADITI KUMARI
+MECHANICAL ENGINEERING
+
+EISTA KUMARI
+MECHANICAL ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GANGA KUMARI
+ENGINEERING GEOLOGY
+
+GANGESH KUMAR
+STRUCTURAL ANALYSIS
+
+ATUL KUMAR
+MANAGEMENT
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+NEELAM KUMARI
+MICROPROCESSOR
+
+KAMINI KUMARI
+DESIGN ANALYSIS OF ALGORITHM
+
+LALITA KUMARI
+COMPILER DESIGN
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+MADHURI KUMARI
+OPERATING SYSTEM
+
+JANVI KUMARI
+SOFTWARE TRAINING
+
+MAHESH KUMAR
+ANALOG ELECTRONICS CIRCUIT
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GOVIND KUMAR
+DATA STRUCTURAL AND ALGORITHM
+
+HIMANSHU KUMAR
+OBJECT ORIENTED PROGRAMMING
+
+ANSHU KUMAR
+TECHNICAL WRITING
+
+SQL> SELECT S.Name,C.Course_Name,E.Semester
+  2  FROM Student S
+  3  INNER JOIN Enrollment E
+  4  ON S.Student_ID=E.Student_ID
+  5  INNER JOIN Course C
+  6  ON E.Course_ID=C.Course_ID;
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+SRISHTI KUMARI
+ARTIFICIAL INTELLIGENCE
+5
+
+MALTI  KUMARI
+ARTIFICIAL INTELLIGENCE
+5
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+
+BABLI  KUMARI
+ARTIFICIAL INTELLIGENCE
+5
+
+ASHA  KUMARI
+ARTIFICIAL INTELLIGENCE
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+5
+
+SMITA  KUMARI
+ARTIFICIAL INTELLIGENCE
+5
+
+CHANDNI  KUMARI
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+MECHANICS OF MATERIALS
+5
+
+AMIT KUMAR
+HYDRAULIC ENGINEERING
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+ROHAN KUMAR
+TRANSPORTATION ENGINEERING
+5
+
+ANKIT KUMAR
+GEOTECHNICAL ENGINEERING
+5
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+
+DEEP KUMAR
+ENVIRONMENTAL SCIENCE
+5
+
+SANDEEP KUMAR
+HEAT TRANSFER
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+5
+
+MANISH KUMAR
+HEAT TRANSFER
+5
+
+SUBRAJ KUMAR
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+HEAT TRANSFER
+5
+
+SUDIP KUMAR
+MANUFACTURING PROCESS
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+SANDHYA KUMARI
+CAPSTONE DESIGN PROJECT
+5
+
+KHUSBOO KUMARI
+CONTROL SYSTEMS
+5
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+
+PRIYANSHU KUMARI
+POWER ELECTRONICS
+5
+
+DOLLY KUMARI
+ANALOG AND DIGITAL COMMUNICATION
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+5
+
+SONAM KUMARI
+POWER SYSTEM -I
+5
+
+ADITI KUMARI
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+MECHANICAL ENGINEERING
+5
+
+EISTA KUMARI
+MECHANICAL ENGINEERING
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+GANGA KUMARI
+ENGINEERING GEOLOGY
+5
+
+GANGESH KUMAR
+STRUCTURAL ANALYSIS
+5
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+
+ATUL KUMAR
+MANAGEMENT
+5
+
+NEELAM KUMARI
+MICROPROCESSOR
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+5
+
+KAMINI KUMARI
+DESIGN ANALYSIS OF ALGORITHM
+5
+
+LALITA KUMARI
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+COMPILER DESIGN
+5
+
+MADHURI KUMARI
+OPERATING SYSTEM
+5
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+JANVI KUMARI
+SOFTWARE TRAINING
+5
+
+MAHESH KUMAR
+ANALOG ELECTRONICS CIRCUIT
+5
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+
+GOVIND KUMAR
+DATA STRUCTURAL AND ALGORITHM
+5
+
+HIMANSHU KUMAR
+OBJECT ORIENTED PROGRAMMING
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+5
+
+ANSHU KUMAR
+TECHNICAL WRITING
+5
+
+NIKESH KUMAR
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SEMESTER
+--------------------
+MATHEMATICS
+5
+
+
+SQL> SELECT S.Name,C.Course_Name,E.Grade
+  2   FROM Student S
+  3  INNER JOIN Enrollment E
+  4  ON S.Student_ID=E.Student_ID
+  5   INNER JOIN Course C
+  6  ON E.Course_ID=C.COURSE_ID
+  7  WHERE E.Semester=5;
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+SRISHTI KUMARI
+ARTIFICIAL INTELLIGENCE
+A
+
+MALTI  KUMARI
+ARTIFICIAL INTELLIGENCE
+A
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+
+BABLI  KUMARI
+ARTIFICIAL INTELLIGENCE
+A+
+
+ASHA  KUMARI
+ARTIFICIAL INTELLIGENCE
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+B+
+
+SMITA  KUMARI
+ARTIFICIAL INTELLIGENCE
+B
+
+CHANDNI  KUMARI
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+MECHANICS OF MATERIALS
+A
+
+AMIT KUMAR
+HYDRAULIC ENGINEERING
+A+
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+ROHAN KUMAR
+TRANSPORTATION ENGINEERING
+B
+
+ANKIT KUMAR
+GEOTECHNICAL ENGINEERING
+B+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+
+DEEP KUMAR
+ENVIRONMENTAL SCIENCE
+C
+
+SANDEEP KUMAR
+HEAT TRANSFER
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+A
+
+MANISH KUMAR
+HEAT TRANSFER
+A+
+
+SUBRAJ KUMAR
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+HEAT TRANSFER
+B
+
+SUDIP KUMAR
+MANUFACTURING PROCESS
+C
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+SANDHYA KUMARI
+CAPSTONE DESIGN PROJECT
+A+
+
+KHUSBOO KUMARI
+CONTROL SYSTEMS
+A
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+
+PRIYANSHU KUMARI
+POWER ELECTRONICS
+B
+
+DOLLY KUMARI
+ANALOG AND DIGITAL COMMUNICATION
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+B+
+
+SONAM KUMARI
+POWER SYSTEM -I
+A
+
+ADITI KUMARI
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+MECHANICAL ENGINEERING
+A
+
+EISTA KUMARI
+MECHANICAL ENGINEERING
+A+
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+GANGA KUMARI
+ENGINEERING GEOLOGY
+B
+
+GANGESH KUMAR
+STRUCTURAL ANALYSIS
+C
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+
+ATUL KUMAR
+MANAGEMENT
+A
+
+NEELAM KUMARI
+MICROPROCESSOR
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+A
+
+KAMINI KUMARI
+DESIGN ANALYSIS OF ALGORITHM
+A+
+
+LALITA KUMARI
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+COMPILER DESIGN
+B
+
+MADHURI KUMARI
+OPERATING SYSTEM
+A
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+JANVI KUMARI
+SOFTWARE TRAINING
+B+
+
+MAHESH KUMAR
+ANALOG ELECTRONICS CIRCUIT
+A
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+
+GOVIND KUMAR
+DATA STRUCTURAL AND ALGORITHM
+A+
+
+HIMANSHU KUMAR
+OBJECT ORIENTED PROGRAMMING
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+B
+
+ANSHU KUMAR
+TECHNICAL WRITING
+A
+
+NIKESH KUMAR
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GRADE
+-----
+MATHEMATICS
+A
+
+SQL> SELECT C.Course_Name
+  2  FROM Student S
+  3  INNER JOIN Enrollment E
+  4  ON S.Student_ID=E.Student_ID
+  5  INNER JOIN Course C
+  6  ON E.Course_ID=C.Course_ID
+  7  WHERE S.Student_ID='23105128023';
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+HEAT TRANSFER
+
+
+
+PART D:
+SQL> SELECT S.Name,S.Department_ID,
+  2  C.Course_Name
+  3  FROM STUDENT S
+  4  INNER JOIN Enrollment E
+  5  ON S.Student_ID=E.Student_ID
+  6  INNER JOIN Course C
+  7  ON E.Course_ID=C.Course_ID;
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SRISHTI KUMARI
+           10
+ARTIFICIAL INTELLIGENCE
+
+MALTI  KUMARI
+           10
+ARTIFICIAL INTELLIGENCE
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+BABLI  KUMARI
+           10
+ARTIFICIAL INTELLIGENCE
+
+ASHA  KUMARI
+           10
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ARTIFICIAL INTELLIGENCE
+
+SMITA  KUMARI
+           10
+ARTIFICIAL INTELLIGENCE
+
+CHANDNI  KUMARI
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+           11
+MECHANICS OF MATERIALS
+
+AMIT KUMAR
+           11
+HYDRAULIC ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ROHAN KUMAR
+           11
+TRANSPORTATION ENGINEERING
+
+ANKIT KUMAR
+           11
+GEOTECHNICAL ENGINEERING
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+DEEP KUMAR
+           11
+ENVIRONMENTAL SCIENCE
+
+SANDEEP KUMAR
+           12
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+HEAT TRANSFER
+
+MANISH KUMAR
+           12
+HEAT TRANSFER
+
+SUBRAJ KUMAR
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+           12
+HEAT TRANSFER
+
+SUDIP KUMAR
+           12
+MANUFACTURING PROCESS
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SANDHYA KUMARI
+           13
+CAPSTONE DESIGN PROJECT
+
+KHUSBOO KUMARI
+           13
+CONTROL SYSTEMS
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+PRIYANSHU KUMARI
+           13
+POWER ELECTRONICS
+
+DOLLY KUMARI
+           13
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ANALOG AND DIGITAL COMMUNICATION
+
+SONAM KUMARI
+           13
+POWER SYSTEM -I
+
+ADITI KUMARI
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+           14
+MECHANICAL ENGINEERING
+
+EISTA KUMARI
+           14
+MECHANICAL ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GANGA KUMARI
+           14
+ENGINEERING GEOLOGY
+
+GANGESH KUMAR
+           14
+STRUCTURAL ANALYSIS
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+ATUL KUMAR
+           14
+MANAGEMENT
+
+NEELAM KUMARI
+           15
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+MICROPROCESSOR
+
+KAMINI KUMARI
+           15
+DESIGN ANALYSIS OF ALGORITHM
+
+LALITA KUMARI
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+           15
+COMPILER DESIGN
+
+MADHURI KUMARI
+           15
+OPERATING SYSTEM
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+JANVI KUMARI
+           15
+SOFTWARE TRAINING
+
+MAHESH KUMAR
+           16
+ANALOG ELECTRONICS CIRCUIT
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+GOVIND KUMAR
+           16
+DATA STRUCTURAL AND ALGORITHM
+
+HIMANSHU KUMAR
+           16
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+OBJECT ORIENTED PROGRAMMING
+
+ANSHU KUMAR
+           16
+TECHNICAL WRITING
+
+NIKESH KUMAR
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_ID
+-------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+           16
+MATHEMATICS
+
+SQL> SELECT D.Department_ID,D.Department_Name,C.Course_Name
+  2   FROM Department D
+  3  INNER JOIN Course C
+  4   ON D.Department_ID=C.Department_ID;
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+           11
+CIVIL ENGINEERING
+MECHANICS OF MATERIALS
+
+           11
+CIVIL ENGINEERING
+HYDRAULIC ENGINEERING
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+           11
+CIVIL ENGINEERING
+TRANSPORTATION ENGINEERING
+
+           11
+CIVIL ENGINEERING
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GEOTECHNICAL ENGINEERING
+
+           11
+CIVIL ENGINEERING
+ENVIRONMENTAL SCIENCE
+
+           12
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+MECHANICAL ENGINEERING
+HEAT TRANSFER
+
+           12
+MECHANICAL ENGINEERING
+FLUID MACHINERY
+
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+           12
+MECHANICAL ENGINEERING
+MANUFACTURING PROCESS
+
+           12
+MECHANICAL ENGINEERING
+KINEMATICS OF MACHINE
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+           12
+MECHANICAL ENGINEERING
+CONSTITUTIONAL OF INDIA
+
+           13
+ELECTRICAL ENGINEERING
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+CAPSTONE DESIGN PROJECT
+
+           13
+ELECTRICAL ENGINEERING
+CONTROL SYSTEMS
+
+           13
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ELECTRICAL ENGINEERING
+POWER ELECTRONICS
+
+           13
+ELECTRICAL ENGINEERING
+ANALOG AND DIGITAL COMMUNICATION
+
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+           13
+ELECTRICAL ENGINEERING
+POWER SYSTEM -I
+
+           14
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+MECHANICAL ENGINEERING
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+           14
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+ENGINEERING GEOLOGY
+
+           14
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+STRUCTURAL ANALYSIS
+
+           14
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+MANAGEMENT
+
+           15
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+MICROPROCESSOR
+
+           14
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+DESIGN ANALYSIS OF ALGORITHM
+
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+           14
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+COMPILER DESIGN
+
+           14
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+OPERATING SYSTEM
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+           14
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+SOFTWARE TRAINING
+
+           17
+3D ANIMATION ENGINEERING
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ANALOG ELECTRONICS CIRCUIT
+
+           17
+3D ANIMATION ENGINEERING
+DATA STRUCTURAL AND ALGORITHM
+
+           17
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+3D ANIMATION ENGINEERING
+OBJECT ORIENTED PROGRAMMING
+
+           17
+3D ANIMATION ENGINEERING
+TECHNICAL WRITING
+
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+           17
+3D ANIMATION ENGINEERING
+MATHEMATICS
+
+           10
+COMPUTER SCIENCE ENGINEERING
+ARTIFICIAL INTELLIGENCE
+
+DEPARTMENT_ID
+-------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+
+SQL> SELECT F.Name,D.Department_Name
+  2  FROM Faculty F
+  3  INNER JOIN Department D
+  4  ON F.Department_ID=D.Department_ID;
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+SUJEET KUMAR
+COMPUTER SCIENCE ENGINEERING
+
+MURLIDHAR PRASAD SINGH
+COMPUTER SCIENCE ENGINEERING
+
+MD.IZHAR
+COMPUTER SCIENCE ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+PRITY KUMARI CHAUDHARY
+COMPUTER SCIENCE ENGINEERING
+
+E.HAQUE
+COMPUTER SCIENCE ENGINEERING
+
+KUNAL KUMAR
+CIVIL ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+VICKY ANAND
+CIVIL ENGINEERING
+
+MAUSAM BHARTI
+CIVIL ENGINEERING
+
+RAUSHAN ANAND
+CIVIL ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+NITISH KUMAR
+CIVIL ENGINEERING
+
+HARE KRISHNA MISHRA
+MECHANICAL ENGINEERING
+
+ASHISH KUMAR SUMAN
+MECHANICAL ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+ASHISH KUMAR
+MECHANICAL ENGINEERING
+
+AJAY GIRI
+MECHANICAL ENGINEERING
+
+UTTAM KUMAR
+MECHANICAL ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+BABLU DAS
+ELECTRICAL ENGINEERING
+
+FIROZ AKHTAR
+ELECTRICAL ENGINEERING
+
+BHAVESH NANDAN
+ELECTRICAL ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+ABHIMANYU MANDAL
+ELECTRICAL ENGINEERING
+
+MITESH KUMAR
+ELECTRICAL ENGINEERING
+
+AKHILESH KUMAR
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+RUPESH KUMAR
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+
+N. KUMAR
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+
+PANKAJ KUMAR
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+NISHIKANT KUMAR
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+
+MD.HAFEEZULLAH
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+
+MANISHA KUMARI SINGH
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+SHAKILA KUMARI
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+
+ARUN KUMAR
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+
+PRAVEEN KUMAR
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+RAKESH KUMAR
+ELECTRONICS AND COMMUNICATION ENGINEERING
+
+ANSHU KUMAR
+ELECTRONICS AND COMMUNICATION ENGINEERING
+
+MANOJ KUMAR
+ELECTRONICS AND COMMUNICATION ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+GANGESH  KUMAR
+ELECTRONICS AND COMMUNICATION ENGINEERING
+
+LALAN  KUMAR
+ELECTRONICS AND COMMUNICATION ENGINEERING
+
+ABHISHEK  KUMAR
+3D ANIMATION ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+SANJAY  KUMAR
+3D ANIMATION ENGINEERING
+
+PINTU  KUMAR
+3D ANIMATION ENGINEERING
+
+SINTU JHA
+3D ANIMATION ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+ANISHA SINGH
+3D ANIMATION ENGINEERING
+
+ANNU SINGH
+INFORMATION TECHNOLOGY
+
+SUPRIYA JHA
+INFORMATION TECHNOLOGY
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+KAJAL SINGH
+INFORMATION TECHNOLOGY
+
+DURGESH RATHORE
+INFORMATION TECHNOLOGY
+
+ANKESH ROY
+INFORMATION TECHNOLOGY
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+JITENDRA MISHRA
+SOFTWARE ENGINEERING
+
+SURAJ KUMAR
+SOFTWARE ENGINEERING
+
+PRAKASH KUMAR
+SOFTWARE ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+ATUL KUMAR
+SOFTWARE ENGINEERING
+
+SANJAY KUMAR
+SOFTWARE ENGINEERING
+
+PART E:
+SQL> SELECT S.Name,C.Course_Name
+  2  FROM Student S
+  3  INNER JOIN Enrollment E
+  4  ON S.Student_ID=E.Student_ID
+  5  INNER JOIN Course C
+  6  ON E.Course_ID=C.Course_ID
+  7  WHERE S.Department_ID='13';
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SANDHYA KUMARI
+CAPSTONE DESIGN PROJECT
+
+KHUSBOO KUMARI
+CONTROL SYSTEMS
+
+PRIYANSHU KUMARI
+POWER ELECTRONICS
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+DOLLY KUMARI
+ANALOG AND DIGITAL COMMUNICATION
+
+SONAM KUMARI
+POWER SYSTEM -I
+
+SQL> SELECT S.Name,C.Course_Name
+  2  FROM Student S
+  3  INNER JOIN Enrollment E
+  4  ON S.Student_ID = E.Student_ID
+  5   INNER JOIN Course C
+  6  ON E.Course_ID = C.Course_ID
+  7   ORDER BY S.Name ASC;
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ADITI KUMARI
+MECHANICAL ENGINEERING
+
+AMIT KUMAR
+HYDRAULIC ENGINEERING
+
+ANKIT KUMAR
+GEOTECHNICAL ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+ANSHU KUMAR
+TECHNICAL WRITING
+
+ASHA  KUMARI
+ARTIFICIAL INTELLIGENCE
+
+ATUL KUMAR
+MANAGEMENT
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+BABLI  KUMARI
+ARTIFICIAL INTELLIGENCE
+
+CHANDNI  KUMARI
+MECHANICS OF MATERIALS
+
+DEEP KUMAR
+ENVIRONMENTAL SCIENCE
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+DOLLY KUMARI
+ANALOG AND DIGITAL COMMUNICATION
+
+EISTA KUMARI
+MECHANICAL ENGINEERING
+
+GANGA KUMARI
+ENGINEERING GEOLOGY
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+GANGESH KUMAR
+STRUCTURAL ANALYSIS
+
+GOVIND KUMAR
+DATA STRUCTURAL AND ALGORITHM
+
+HIMANSHU KUMAR
+OBJECT ORIENTED PROGRAMMING
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+JANVI KUMARI
+SOFTWARE TRAINING
+
+KAMINI KUMARI
+DESIGN ANALYSIS OF ALGORITHM
+
+KHUSBOO KUMARI
+CONTROL SYSTEMS
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+LALITA KUMARI
+COMPILER DESIGN
+
+MADHURI KUMARI
+OPERATING SYSTEM
+
+MAHESH KUMAR
+ANALOG ELECTRONICS CIRCUIT
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+MALTI  KUMARI
+ARTIFICIAL INTELLIGENCE
+
+MANISH KUMAR
+HEAT TRANSFER
+
+NEELAM KUMARI
+MICROPROCESSOR
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+NIKESH KUMAR
+MATHEMATICS
+
+PRIYANSHU KUMARI
+POWER ELECTRONICS
+
+ROHAN KUMAR
+TRANSPORTATION ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SANDEEP KUMAR
+HEAT TRANSFER
+
+SANDHYA KUMARI
+CAPSTONE DESIGN PROJECT
+
+SMITA  KUMARI
+ARTIFICIAL INTELLIGENCE
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SONAM KUMARI
+POWER SYSTEM -I
+
+SRISHTI KUMARI
+ARTIFICIAL INTELLIGENCE
+
+SUBRAJ KUMAR
+HEAT TRANSFER
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+SUDIP KUMAR
+MANUFACTURING PROCESS
+
+
+SQL> SELECT F.Name,C.Course_Name
+  2  FROM Faculty F
+  3  INNER JOIN Course C
+  4  ON F.Faculty_ID = C.Faculty_ID
+  5  ORDER BY C.Credits DESC;
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+E.HAQUE
+ARTIFICIAL INTELLIGENCE
+
+MITESH KUMAR
+CONTROL SYSTEMS
+
+SINTU JHA
+TECHNICAL WRITING
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+PINTU  KUMAR
+OBJECT ORIENTED PROGRAMMING
+
+SANJAY  KUMAR
+DATA STRUCTURAL AND ALGORITHM
+
+ABHISHEK  KUMAR
+ANALOG ELECTRONICS CIRCUIT
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+HARE KRISHNA MISHRA
+ANALOG AND DIGITAL COMMUNICATION
+
+ASHISH KUMAR SUMAN
+POWER SYSTEM -I
+
+AJAY GIRI
+HEAT TRANSFER
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+UTTAM KUMAR
+FLUID MACHINERY
+
+BABLU DAS
+MANUFACTURING PROCESS
+
+FIROZ AKHTAR
+KINEMATICS OF MACHINE
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+BHAVESH NANDAN
+CONSTITUTIONAL OF INDIA
+
+ABHIMANYU MANDAL
+CAPSTONE DESIGN PROJECT
+
+ANISHA SINGH
+MATHEMATICS
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+AKHILESH KUMAR
+POWER ELECTRONICS
+
+RUPESH KUMAR
+MECHANICAL ENGINEERING
+
+N. KUMAR
+ENGINEERING GEOLOGY
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+PANKAJ KUMAR
+STRUCTURAL ANALYSIS
+
+NISHIKANT KUMAR
+MANAGEMENT
+
+MD.HAFEEZULLAH
+MICROPROCESSOR
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+MANISHA KUMARI SINGH
+DESIGN ANALYSIS OF ALGORITHM
+
+SHAKILA KUMARI
+COMPILER DESIGN
+
+ARUN KUMAR
+OPERATING SYSTEM
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+PRAVEEN KUMAR
+SOFTWARE TRAINING
+
+NITISH KUMAR
+ENVIRONMENTAL SCIENCE
+
+RAUSHAN ANAND
+GEOTECHNICAL ENGINEERING
+
+
+NAME
+--------------------------------------------------------------------------------
+COURSE_NAME
+--------------------------------------------------------------------------------
+MAUSAM BHARTI
+TRANSPORTATION ENGINEERING
+
+VICKY ANAND
+HYDRAULIC ENGINEERING
+
+KUNAL KUMAR
+MECHANICS OF MATERIALS
+
+PART F:
+SQL> SELECT C.Course_Name , COUNT(E.Student_ID) AS TotalStudent
+  2  FROM Course C
+  3  INNER JOIN Enrollment E
+  4  ON C.Course_ID = E.Course_ID
+  5  GROUP BY C.Course_Name;
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+TOTALSTUDENT
+------------
+ARTIFICIAL INTELLIGENCE
+           5
+
+MECHANICS OF MATERIALS
+           1
+
+HYDRAULIC ENGINEERING
+           1
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+TOTALSTUDENT
+------------
+TRANSPORTATION ENGINEERING
+           1
+
+GEOTECHNICAL ENGINEERING
+           1
+
+ENVIRONMENTAL SCIENCE
+           1
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+TOTALSTUDENT
+------------
+HEAT TRANSFER
+           3
+
+MANUFACTURING PROCESS
+           1
+
+CAPSTONE DESIGN PROJECT
+           1
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+TOTALSTUDENT
+------------
+CONTROL SYSTEMS
+           1
+
+POWER ELECTRONICS
+           1
+
+ANALOG AND DIGITAL COMMUNICATION
+           1
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+TOTALSTUDENT
+------------
+POWER SYSTEM -I
+           1
+
+MECHANICAL ENGINEERING
+           2
+
+ENGINEERING GEOLOGY
+           1
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+TOTALSTUDENT
+------------
+STRUCTURAL ANALYSIS
+           1
+
+MANAGEMENT
+           1
+
+MICROPROCESSOR
+           1
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+TOTALSTUDENT
+------------
+DESIGN ANALYSIS OF ALGORITHM
+           1
+
+COMPILER DESIGN
+           1
+
+OPERATING SYSTEM
+           1
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+TOTALSTUDENT
+------------
+SOFTWARE TRAINING
+           1
+
+ANALOG ELECTRONICS CIRCUIT
+           1
+
+DATA STRUCTURAL AND ALGORITHM
+           1
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+TOTALSTUDENT
+------------
+OBJECT ORIENTED PROGRAMMING
+           1
+
+TECHNICAL WRITING
+           1
+
+MATHEMATICS
+           1
+
+SQL> SELECT F.Name, COUNT(C.Course_ID) AS TotalCourses
+  2  FROM Faculty F
+  3  INNER JOIN Course C
+  4  ON F.Faculty_ID = C.Faculty_ID
+  5  GROUP BY F.Name;
+
+NAME
+--------------------------------------------------------------------------------
+TOTALCOURSES
+------------
+E.HAQUE
+           1
+
+KUNAL KUMAR
+           1
+
+VICKY ANAND
+           1
+
+
+NAME
+--------------------------------------------------------------------------------
+TOTALCOURSES
+------------
+MAUSAM BHARTI
+           1
+
+RAUSHAN ANAND
+           1
+
+NITISH KUMAR
+           1
+
+
+NAME
+--------------------------------------------------------------------------------
+TOTALCOURSES
+------------
+HARE KRISHNA MISHRA
+           1
+
+ASHISH KUMAR SUMAN
+           1
+
+AJAY GIRI
+           1
+
+
+NAME
+--------------------------------------------------------------------------------
+TOTALCOURSES
+------------
+UTTAM KUMAR
+           1
+
+BABLU DAS
+           1
+
+FIROZ AKHTAR
+           1
+
+
+NAME
+--------------------------------------------------------------------------------
+TOTALCOURSES
+------------
+BHAVESH NANDAN
+           1
+
+ABHIMANYU MANDAL
+           1
+
+MITESH KUMAR
+           1
+
+
+NAME
+--------------------------------------------------------------------------------
+TOTALCOURSES
+------------
+AKHILESH KUMAR
+           1
+
+RUPESH KUMAR
+           1
+
+N. KUMAR
+           1
+
+
+NAME
+--------------------------------------------------------------------------------
+TOTALCOURSES
+------------
+PANKAJ KUMAR
+           1
+
+NISHIKANT KUMAR
+           1
+
+MD.HAFEEZULLAH
+           1
+
+
+NAME
+--------------------------------------------------------------------------------
+TOTALCOURSES
+------------
+MANISHA KUMARI SINGH
+           1
+
+SHAKILA KUMARI
+           1
+
+ARUN KUMAR
+           1
+
+
+NAME
+--------------------------------------------------------------------------------
+TOTALCOURSES
+------------
+PRAVEEN KUMAR
+           1
+
+ABHISHEK  KUMAR
+           1
+
+SANJAY  KUMAR
+           1
+
+
+NAME
+--------------------------------------------------------------------------------
+TOTALCOURSES
+------------
+PINTU  KUMAR
+           1
+
+SINTU JHA
+           1
+
+ANISHA SINGH
+           1
+
+
+SQL> SELECT D.Department_Name,COUNT(S.Student_ID) AS Total_Students
+  2  FROM Department D
+  3  INNER JOIN Student S
+  4  ON D.Department_ID=S.Department_ID
+  5  GROUP BY D.Department_Name;
+
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+TOTAL_STUDENTS
+--------------
+COMPUTER SCIENCE ENGINEERING
+            10
+
+CIVIL ENGINEERING
+            10
+
+MECHANICAL ENGINEERING
+            10
+
+
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+TOTAL_STUDENTS
+--------------
+ELECTRICAL ENGINEERING
+            10
+
+CIVIL ENGINEERING WITH COMPUTER APPLICATION
+            10
+
+ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+            10
+
+
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+TOTAL_STUDENTS
+--------------
+ELECTRONICS AND COMMUNICATION ENGINEERING
+            10
+
+3D ANIMATION ENGINEERING
+            11
+
+INFORMATION TECHNOLOGY
+             9
+
+
+DEPARTMENT_NAME
+--------------------------------------------------------------------------------
+TOTAL_STUDENTS
+--------------
+SOFTWARE ENGINEERING
+            10
+
+
+SQL> SELECT C.Course_NAME,MAX(E.Grade) AS MAXGrade
+  2  FROM Course C
+  3  INNER JOIN Enrollment E
+  4  ON C.Course_ID = E.Course_ID
+  5  GROUP BY C.Course_NAME;
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+MAXGR
+-----
+ARTIFICIAL INTELLIGENCE
+B+
+
+MECHANICS OF MATERIALS
+A
+
+HYDRAULIC ENGINEERING
+A+
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+MAXGR
+-----
+TRANSPORTATION ENGINEERING
+B
+
+GEOTECHNICAL ENGINEERING
+B+
+
+ENVIRONMENTAL SCIENCE
+C
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+MAXGR
+-----
+HEAT TRANSFER
+B
+
+MANUFACTURING PROCESS
+C
+
+CAPSTONE DESIGN PROJECT
+A+
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+MAXGR
+-----
+CONTROL SYSTEMS
+A
+
+POWER ELECTRONICS
+B
+
+ANALOG AND DIGITAL COMMUNICATION
+B+
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+MAXGR
+-----
+POWER SYSTEM -I
+A
+
+MECHANICAL ENGINEERING
+A+
+
+ENGINEERING GEOLOGY
+B
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+MAXGR
+-----
+STRUCTURAL ANALYSIS
+C
+
+MANAGEMENT
+A
+
+MICROPROCESSOR
+A
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+MAXGR
+-----
+DESIGN ANALYSIS OF ALGORITHM
+A+
+
+COMPILER DESIGN
+B
+
+OPERATING SYSTEM
+A
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+MAXGR
+-----
+SOFTWARE TRAINING
+B+
+
+ANALOG ELECTRONICS CIRCUIT
+A
+
+DATA STRUCTURAL AND ALGORITHM
+A+
+
+
+COURSE_NAME
+--------------------------------------------------------------------------------
+MAXGR
+-----
+OBJECT ORIENTED PROGRAMMING
+B
+
+TECHNICAL WRITING
+A
+
+MATHEMATICS
+A
+
+
